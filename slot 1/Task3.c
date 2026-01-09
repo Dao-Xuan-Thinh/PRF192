@@ -4,5 +4,7 @@ int main(){
 	int a = 5;
 	float b = 10.216;
 	
-	printf("%6.2f", a+b);
+	printf("a=%d\nb=%.3f\n", a, b);
+	printf("%d + %.3f = %.2f", a, b, a+b);
 }
+
