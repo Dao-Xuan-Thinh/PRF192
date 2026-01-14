@@ -3,10 +3,8 @@
 int main(){
 	char kt = 'A';
 	
-	printf("kt: %c\n", kt);
-	printf("Binary: 01000001\n");
-	printf("Hex: %x\n", kt);
-	printf("Octal: %o\n\n", kt);
+	printf("%-15s %-15s %-15s %-15s %-15s %-15s\n", "Name", "Value", "Dec", "Hex", "Oct", "Size");
+	printf("%-15s %-15c %-15u %-15x %-15o %-15s\n\n", "kt", kt, kt, kt, kt, "1" );
 	
 	int integerVar = 10;
 	long longVar = 1000;
