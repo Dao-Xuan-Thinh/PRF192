@@ -1,10 +1,11 @@
 #include<stdio.h>
 
 int main(){
+	
 	char kt = 'A';
 	
-	printf("%-15s %-15s %-15s %-15s %-15s %-15s\n", "Name", "Value", "Dec", "Hex", "Oct", "Size");
-	printf("%-15s %-15c %-15u %-15x %-15o %-15s\n\n", "kt", kt, kt, kt, kt, sizeof(kt));
+	printf("|%-10s |%-10s |%-10s |%-10s |%-10s |%-10s\n", "Name", "Value", "Dec", "Hex", "Oct", "Size");
+	printf("|%-10s |%-10c |%-10u |%-10x |%-10o |%-10d", "kt", kt, kt, kt, kt, sizeof(kt));
 	
 //	int integerVar = 10;
 //	long longVar = 1000;
@@ -19,6 +20,6 @@ int main(){
 //	printf("longVar: %-15d\n",sizeof(longVar));
 //	printf("floatVar: %-15d\n",sizeof(floatVar));
 //	printf("doubleVar: %-15d\n",sizeof(doubleVar));
-//
+
 	
 }
