@@ -2,7 +2,7 @@
 
 int main(){
 	
-	char kt = 'A';
+	char kt = 'a';
 	
 	printf("|%-10s |%-10s |%-10s |%-10s |%-10s |%-10s\n", "Name", "Value", "Dec", "Hex", "Oct", "Size");
 	printf("|%-10s |%-10c |%-10u |%-10x |%-10o |%-10d", "kt", kt, kt, kt, kt, sizeof(kt));
@@ -20,6 +20,4 @@ int main(){
 //	printf("longVar: %-15d\n",sizeof(longVar));
 //	printf("floatVar: %-15d\n",sizeof(floatVar));
 //	printf("doubleVar: %-15d\n",sizeof(doubleVar));
-
-	
 }
