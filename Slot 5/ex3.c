@@ -18,5 +18,6 @@ int main(){
 	else
 		max = c;
 		
-	printf("%.2f", max);
+	printf("\nSo lon nhat la: %.2f", max);
+	
 }
