@@ -2,6 +2,7 @@
 *.o
 *.exe
 *.out
+*.docx
 
 # Build folders
 build/
