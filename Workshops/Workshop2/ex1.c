@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<Math.h>
+
+int main(){
+	float n;
+	
+	printf("Nhap vao n: ");
+	while (1) {
+		if (scanf("%f", &n) != 1) {
+			printf("\nNhap lai vao n: ");
+			fflush(stdin);
+			continue;
+		}
+		if (n <= 0 || n >= 1000) {
+			printf("\nNhap lai vao n: ");
+			continue;
+		}
+		break;
+	}
+	printf("Can bac 2 la: %.2f", sqrt(n));
+}
