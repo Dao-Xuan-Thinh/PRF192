@@ -16,6 +16,5 @@ int main(){
         n = n / 10;
         printf("\n(Line 3)n = %d, dao = %d\n", n, dao);
     }
-    
     printf("\nSo dao nguoc la: %d", dao);
 }
