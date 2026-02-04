@@ -10,11 +10,8 @@ int main(){
     }
     
     while(n != 0){
-        printf("\n(Line 1)n = %d, dao = %d", n, dao);
         dao = dao * 10 + n % 10;
-        printf("\n(Line 2)n = %d, dao = %d", n, dao);
         n = n / 10;
-        printf("\n(Line 3)n = %d, dao = %d\n", n, dao);
     }
     printf("\nSo dao nguoc la: %d", dao);
 }
