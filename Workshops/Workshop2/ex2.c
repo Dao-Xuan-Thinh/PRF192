@@ -17,4 +17,5 @@ int main(){
 		count++;
 	}
 	printf("\nDa xong");
+	return 0;
 }

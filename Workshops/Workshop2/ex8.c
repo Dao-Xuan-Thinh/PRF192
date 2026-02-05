@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-//Ước chung lớn nhất (UCLN): Sử dụng thuật toán Euclid với vòng lặp while để tìm UCLN của 2 số a,b.
-
 int main(){
     int a, b, r;
     
@@ -23,6 +21,6 @@ int main(){
         b = r;
     }
     
-    printf("\nUCLN la: %d", a);
+    printf("\nUoc chung lon nhat la: %d", a);
     return 0;
 }

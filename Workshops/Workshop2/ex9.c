@@ -1,11 +1,13 @@
-#include <stdio.h>
-
-//Game đoán số: Máy tính chọn ngẫu nhiên 1 số từ 1-100. Người dùng nhập số đoán cho đến khi đúng. Sau mỗi lần sai, máy gợi ý "Lớn hơn" hoặc "Nhỏ hơn".
+#include<stdio.h>
+#include<stdlib.h>
+#include<time.h>
 
 int main(){
     int guess, target;
 
+    srand(time(NULL));
     target = (rand() % 100) + 1;
+    printf("%d\n", target);
 
     printf("Hay doan mot so tu 1 den 100\n");
     scanf("%d", &guess);
@@ -21,4 +23,6 @@ int main(){
     }
 
     printf("Chuc mung! Ban da doan dung so %d\n", target);
+    return 0;
 }
+//add s.time 

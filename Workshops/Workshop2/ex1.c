@@ -10,4 +10,5 @@ int main(){
 		fflush(stdin);
 	}
 	printf("Can bac 2 la: %.2f", sqrt(n));
+	return 0;
 }

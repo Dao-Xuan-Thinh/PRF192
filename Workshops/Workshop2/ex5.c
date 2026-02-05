@@ -8,4 +8,5 @@ int main(){
         sum = sum + n;
     }
     printf("Tong cua cac so la: %d", sum);
+    return 0;
 }

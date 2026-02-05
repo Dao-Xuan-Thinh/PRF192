@@ -1,7 +1,5 @@
 #include<stdio.h>
 
-//7.	Số chính phương: Nhập một số, kiểm tra xem nó có phải số chính phương không mà không dùng hàm sqrt().
-
 int main(){
     int n, i = 0, sqr = 0;
     

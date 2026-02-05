@@ -21,7 +21,7 @@ int main(){
 		bn++;
 	}
 	
-	printf("\n\n:3");
+	return 0;
 }
 
 

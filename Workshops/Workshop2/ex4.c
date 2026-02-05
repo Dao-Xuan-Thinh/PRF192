@@ -14,4 +14,5 @@ int main(){
         n = n / 10;
     }
     printf("\nSo dao nguoc la: %d", dao);
+    return 0;
 }

@@ -19,4 +19,5 @@ int main(){
 			break;
 	}
 	printf("\nDa xong");
+	return 0;
 }
