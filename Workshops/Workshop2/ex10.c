@@ -1,7 +1,5 @@
 #include<stdio.h>
 
-//ATM mô phỏng: Cho phép người dùng rút tiền liên tục cho đến khi số dư không đủ hoặc chọn thoát.
-
 int main(){
     long long balance = 100000000; //vnd
     long long withdraw;
